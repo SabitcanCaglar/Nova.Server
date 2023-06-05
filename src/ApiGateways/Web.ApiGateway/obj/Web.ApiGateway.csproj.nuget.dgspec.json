@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/workstation/RiderProjects/Nova/Nova/Web.ApiGateway/Web.ApiGateway.csproj": {}
+    "/Users/workstation/RiderProjects/Nova/Nova/src/ApiGateways/Web.ApiGateway/Web.ApiGateway.csproj": {}
   },
   "projects": {
-    "/Users/workstation/RiderProjects/Nova/Nova/Web.ApiGateway/Web.ApiGateway.csproj": {
+    "/Users/workstation/RiderProjects/Nova/Nova/src/ApiGateways/Web.ApiGateway/Web.ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/workstation/RiderProjects/Nova/Nova/Web.ApiGateway/Web.ApiGateway.csproj",
+        "projectUniqueName": "/Users/workstation/RiderProjects/Nova/Nova/src/ApiGateways/Web.ApiGateway/Web.ApiGateway.csproj",
         "projectName": "Web.ApiGateway",
-        "projectPath": "/Users/workstation/RiderProjects/Nova/Nova/Web.ApiGateway/Web.ApiGateway.csproj",
+        "projectPath": "/Users/workstation/RiderProjects/Nova/Nova/src/ApiGateways/Web.ApiGateway/Web.ApiGateway.csproj",
         "packagesPath": "/Users/workstation/.nuget/packages/",
-        "outputPath": "/Users/workstation/RiderProjects/Nova/Nova/Web.ApiGateway/obj/",
+        "outputPath": "/Users/workstation/RiderProjects/Nova/Nova/src/ApiGateways/Web.ApiGateway/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/workstation/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PTdaHGsPF0zyV0FeyPE32YshEn6JC5O5JB0rC19jJ1+5Dqm7KcTrCTnX3HBPoHP0ef2TLrgYbLvTXuUH3BEGDw==",
+  "dgSpecHash": "aniGLR50wf5S6k9C9IeZqeSbvMwqF9vmWj8u82SsIUujJGfWi/KPZLaoj19TvqADTVhOjMHcpjHnz+2mDINgGQ==",
   "success": true,
-  "projectFilePath": "/Users/workstation/RiderProjects/Nova/Nova/Web.ApiGateway/Web.ApiGateway.csproj",
+  "projectFilePath": "/Users/workstation/RiderProjects/Nova/Nova/src/ApiGateways/Web.ApiGateway/Web.ApiGateway.csproj",
   "expectedPackageFiles": [
     "/Users/workstation/.nuget/packages/microsoft.aspnetcore.openapi/7.0.1/microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
     "/Users/workstation/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
