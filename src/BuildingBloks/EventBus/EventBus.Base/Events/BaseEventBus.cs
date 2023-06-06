@@ -12,12 +12,11 @@ public abstract class BaseEventBus : IEventBus
 
     private EventBusConfig _eventBusConfig;
 
-    protected BaseEventBus(IServiceProvider serviceProvider,
-        EventBusConfig eventBusConfig)
+    protected BaseEventBus(IServiceProvider serviceProvider, EventBusConfig eventBusConfig)
     {
-        ServiceProvider = serviceProvider;
+        ServiceProvider             = serviceProvider;
         EventBusSubscriptionManager = new InMemoryEventBusSubscriptionManager(ProcessEventName);
-        _eventBusConfig = eventBusConfig;
+        _eventBusConfig             = eventBusConfig;
     }
 
     public virtual string ProcessEventName(string eventName)
