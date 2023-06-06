@@ -1,5 +1,6 @@
 using EventBus.Base.Abstraction;
 using EventBus.Base.SubManagers;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace EventBus.Base.Events;
 
@@ -37,9 +38,11 @@ public abstract class BaseEventBus :IEventBus
         {
             var subscriptions = EventBusSubscriptionManager.GetHandlersForEvent(eventName);
 
-            return true;
+            using (var scope = ServiceProvider.CreateScope())
+            {
+                
+            }
         }
-        return false;
     }
 
     public void Publish(IntegrationEvent @event)
