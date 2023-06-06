@@ -1,24 +1,26 @@
 using EventBus.Base.Abstraction;
 using EventBus.Base.SubManagers;
 using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
 
 namespace EventBus.Base.Events;
 
-public abstract class BaseEventBus :IEventBus
+public abstract class BaseEventBus : IEventBus
 {
     public readonly IServiceProvider ServiceProvider;
     public readonly IEventBusSubscriptionManager EventBusSubscriptionManager;
 
     private EventBusConfig _eventBusConfig;
 
-    protected BaseEventBus(IServiceProvider serviceProvider, EventBusConfig eventBusConfig)
+    protected BaseEventBus(IServiceProvider serviceProvider,
+        EventBusConfig eventBusConfig)
     {
-        ServiceProvider             = serviceProvider;
+        ServiceProvider = serviceProvider;
         EventBusSubscriptionManager = new InMemoryEventBusSubscriptionManager(ProcessEventName);
-        _eventBusConfig             = eventBusConfig;
+        _eventBusConfig = eventBusConfig;
     }
 
-    private string ProcessEventName(string eventName)
+    public virtual string ProcessEventName(string eventName)
     {
         if (_eventBusConfig.DeleteEventPrefix)
             eventName = eventName.TrimStart(_eventBusConfig.EventNamePrefix.ToArray());
@@ -27,36 +29,51 @@ public abstract class BaseEventBus :IEventBus
 
         return eventName;
     }
-    
-    public Task<bool> ProcessEvent(string eventName, string message)
+
+    public virtual string GetSubName(string eventName)
+    {
+        return $"{_eventBusConfig.SubscriberClientAppName}.{ProcessEventName(eventName)}";
+    }
+
+    public virtual void Dispose()
+    {
+        _eventBusConfig = null;
+    }
+
+    public async Task<bool> ProcessEvent(string eventName, string message)
     {
         eventName = ProcessEventName(eventName);
-        
+
         var processed = false;
 
-        if (EventBusSubscriptionManager.HasSubscriptionsForEvent(eventName))
-        {
-            var subscriptions = EventBusSubscriptionManager.GetHandlersForEvent(eventName);
+        if (!EventBusSubscriptionManager.HasSubscriptionsForEvent(eventName)) return processed;
 
-            using (var scope = ServiceProvider.CreateScope())
+        var subscriptions = EventBusSubscriptionManager.GetHandlersForEvent(eventName);
+
+        using (var scope = ServiceProvider.CreateScope())
+        {
+            foreach (var subscription in subscriptions)
             {
-                
+                var handler = ServiceProvider.GetService(subscription.HandlerType);
+                if (handler is null)
+                    continue;
+
+                var eventType = EventBusSubscriptionManager.GetEventTypeByName($"{_eventBusConfig.EventNamePrefix}{eventName}{_eventBusConfig.EventNameSuffix}");
+                var integrationEvent = JsonConvert.DeserializeObject(message, eventType);
+
+                var concoreteType = typeof(IIntegrationEventHandler<>).MakeGenericType(eventType);
+                await (Task)concoreteType.GetMethod("Handle")?.Invoke(handler, new object[] { integrationEvent });
             }
         }
+
+        processed = true;
+
+        return processed;
     }
 
-    public void Publish(IntegrationEvent @event)
-    {
-        throw new NotImplementedException();
-    }
+    public abstract void Publish(IntegrationEvent @event);
 
-    public void Subscribe<T, TH>() where T : IntegrationEvent where TH : IIntegrationEventHandler<T>
-    {
-        throw new NotImplementedException();
-    }
+    public abstract void Subscribe<T, TH>() where T : IntegrationEvent where TH : IIntegrationEventHandler<T>;
 
-    public void UnSubscribe<T, TH>() where T : IntegrationEvent where TH : IIntegrationEventHandler<T>
-    {
-        throw new NotImplementedException();
-    }
+    public abstract void UnSubscribe<T, TH>() where T : IntegrationEvent where TH : IIntegrationEventHandler<T>;
 }
