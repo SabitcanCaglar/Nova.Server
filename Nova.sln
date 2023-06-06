@@ -36,6 +36,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationService", "Noti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "src\Services\NotificationService\NotificationService\NotificationService.csproj", "{ABD4DF6B-88B4-4E72-A086-9236BBB67D7D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookingService", "BookingService", "{F479B001-1D60-46F8-8F37-C63DDCC3A220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingService.Domain", "src\Services\BookingService\BookingService.Domain\BookingService.Domain.csproj", "{34BFDC8F-8B9D-4F5C-AF12-1D6CB961E301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingService.Application", "src\Services\BookingService\BookingService.Application\BookingService.Application.csproj", "{F1F1C116-C342-4297-A4AE-0FFE05184E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingService.Infrastructure", "src\Services\BookingService\BookingService.Infrastructure\BookingService.Infrastructure.csproj", "{9AD586C6-A5D4-4220-BF43-5143123D4BBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +67,10 @@ Global
 		{8F8D0437-00CA-4B54-8052-5A38FC9AB192} = {96942076-FA6A-413A-A5AC-6CB50B5D119D}
 		{266B2986-E963-4011-BA4D-E7980BCF05EB} = {4E4CE08E-B4A9-4276-8EFC-5692226CDE37}
 		{ABD4DF6B-88B4-4E72-A086-9236BBB67D7D} = {266B2986-E963-4011-BA4D-E7980BCF05EB}
+		{F479B001-1D60-46F8-8F37-C63DDCC3A220} = {4E4CE08E-B4A9-4276-8EFC-5692226CDE37}
+		{34BFDC8F-8B9D-4F5C-AF12-1D6CB961E301} = {F479B001-1D60-46F8-8F37-C63DDCC3A220}
+		{F1F1C116-C342-4297-A4AE-0FFE05184E2A} = {F479B001-1D60-46F8-8F37-C63DDCC3A220}
+		{9AD586C6-A5D4-4220-BF43-5143123D4BBC} = {F479B001-1D60-46F8-8F37-C63DDCC3A220}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{26C687D1-51EA-440F-B8DB-114715B1C21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -93,5 +105,17 @@ Global
 		{ABD4DF6B-88B4-4E72-A086-9236BBB67D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABD4DF6B-88B4-4E72-A086-9236BBB67D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABD4DF6B-88B4-4E72-A086-9236BBB67D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BFDC8F-8B9D-4F5C-AF12-1D6CB961E301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BFDC8F-8B9D-4F5C-AF12-1D6CB961E301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BFDC8F-8B9D-4F5C-AF12-1D6CB961E301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BFDC8F-8B9D-4F5C-AF12-1D6CB961E301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F1C116-C342-4297-A4AE-0FFE05184E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F1C116-C342-4297-A4AE-0FFE05184E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F1C116-C342-4297-A4AE-0FFE05184E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F1C116-C342-4297-A4AE-0FFE05184E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD586C6-A5D4-4220-BF43-5143123D4BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD586C6-A5D4-4220-BF43-5143123D4BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD586C6-A5D4-4220-BF43-5143123D4BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD586C6-A5D4-4220-BF43-5143123D4BBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
