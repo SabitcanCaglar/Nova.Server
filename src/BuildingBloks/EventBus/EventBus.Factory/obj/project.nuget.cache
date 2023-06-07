@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "UhgkuOtnS9hQa31w3WPgl/dw0DprjvrUUL41RVkI8xR6cpkPegWmvNdQYYTVyKibv21JF+lP6g51azTq1bmdUw==",
+  "dgSpecHash": "YR9Ic5YqETDowlYtykLcdlO6XfF5Gl3U8N9k3lH9oLalkGVlfNMz5NaA0rLU95KXSDXb8y9Cyq9tXRitSC4CnA==",
   "success": true,
   "projectFilePath": "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/workstation/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/workstation/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/workstation/.nuget/packages/polly/7.2.3/polly.7.2.3.nupkg.sha512",
+    "/Users/workstation/.nuget/packages/rabbitmq.client/6.5.0/rabbitmq.client.6.5.0.nupkg.sha512",
+    "/Users/workstation/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/workstation/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
