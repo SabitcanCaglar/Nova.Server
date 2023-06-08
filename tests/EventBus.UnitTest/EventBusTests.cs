@@ -21,36 +21,45 @@ public class EventBusTests
     [SetUp]
     public void Setup()
     {
-        _serviceCollection.AddSingleton<IEventBus>(sp =>
-        {
-            EventBusConfig config = new()
-            {
-                ConnectionRetryCount = 5,
-                SubscriberClientAppName = "EventBus.UnitTest",
-                DefaultTopicName = "EventBus.UnitTest.TopicName",
-                EventBusType = EventBusType.RabbitMQ,
-                EventNameSuffix = "IntegrationEvent"
-                //Connection = new ConnectionFactory()
-                //{
-                //HostName = "localhost",
-                //Port = 5672,
-                //UserName = "guest",
-                //Password = "guest"
-                //}
-            };
-            return EventBusFactory.Create(config,sp);
-        });
+        _serviceCollection.AddSingleton<IEventBus>(sp => { return EventBusFactory.Create(GetRabbitMqConfig(), sp); });
+
     }
 
     [Test]
-    public void subscribe_event_on_rabbitmq_test()
+    public void subscribe_and_unsubscribe_event_on_rabbitmq_test_01()
     {
         var sp = _serviceCollection.BuildServiceProvider();
-        
         var eventBus = sp.GetRequiredService<IEventBus>();
-        
         eventBus.Subscribe<BookingCreatedIntegrationEvent,BookingCreatedIntegrationEventHandler>();
-       
-        Assert.Pass();
+        eventBus.UnSubscribe<BookingCreatedIntegrationEvent,BookingCreatedIntegrationEventHandler>();
+    }
+    
+    [Test]
+    public void send_message_to_rabbitmq_02()
+    {
+        var sp = _serviceCollection.BuildServiceProvider();
+        var eventBus = sp.GetRequiredService<IEventBus>();
+        eventBus.Publish(new BookingCreatedIntegrationEvent(1));
+    }
+
+    private static EventBusConfig GetRabbitMqConfig()
+    {
+        EventBusConfig config = new()
+        {
+            ConnectionRetryCount = 5,
+            SubscriberClientAppName = "EventBus.UnitTest",
+            DefaultTopicName = "EventBus.UnitTest.TopicName",
+            EventBusType = EventBusType.RabbitMQ,
+            EventNameSuffix = "IntegrationEvent",
+                
+            //Connection = new ConnectionFactory()
+            //{
+            //HostName = "localhost",
+            //Port = 5672,
+            //UserName = "guest",
+            //Password = "guest"
+            //}
+        };
+        return config;
     }
 }
