@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "McgkBd+aC0VpIqbMj1Jgh5AtIBu07opfXJkGc4iKs93ys0jb+krSUqk5N6fO4zPTfjpRooGD9tY7hXK90ka92A==",
+  "dgSpecHash": "LFu4uw+qmcz2viuH3I6oUoGEeAeoDpn5aMRYri19IrsSPJHec1rD1vtcJixnhqQVKy4cIl/5IZlIMfcgR++3hQ==",
   "success": true,
-  "projectFilePath": "/Users/workstation/RiderProjects/Nova/Nova/src/Clients/WebApps/DashboardWebApp/DashboardWebApp.csproj",
+  "projectFilePath": "/Users/admin/RiderProjects/Nova.Server/src/Clients/WebApps/DashboardWebApp/DashboardWebApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

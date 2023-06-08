@@ -32,7 +32,7 @@ public class InMemoryEventBusSubscriptionManager: IEventBusSubscriptionManager
 
     private void AddSubscription(Type handlerType, string eventName)
     {
-        if (HasSubscriptionsForEvent(eventName))
+        if (!HasSubscriptionsForEvent(eventName))
         {
             _handlers.Add(eventName,new List<SubscriptionInfo>());
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jMe4j1u1X7Sd/3PXFQv4WZeV7acwJmIHPTcG44rVYeP+hnM+HIxJFQnkfPpDhmJahd4JwryJ4Bji9+YN5PJh1g==",
+  "dgSpecHash": "zUWarSGd8oGxE0Xgh28mqgPkm9cyrvO6Qmg33L+6SMTRj9Zn22uNzpzR9KbR8YSwyPsGmD+RSrl95ITWurEbDw==",
   "success": true,
-  "projectFilePath": "/Users/workstation/RiderProjects/Nova/Nova/src/Services/IdentityService/IdentityService.Api/IdentityService.Api.csproj",
+  "projectFilePath": "/Users/admin/RiderProjects/Nova.Server/src/Services/IdentityService/IdentityService.Api/IdentityService.Api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

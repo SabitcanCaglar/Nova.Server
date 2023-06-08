@@ -1,0 +1,15 @@
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/bin/Debug/net7.0/NotificationService
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/bin/Debug/net7.0/NotificationService.deps.json
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/bin/Debug/net7.0/NotificationService.runtimeconfig.json
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/bin/Debug/net7.0/NotificationService.dll
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/bin/Debug/net7.0/NotificationService.pdb
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/obj/Debug/net7.0/NotificationService.csproj.AssemblyReference.cache
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/obj/Debug/net7.0/NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/obj/Debug/net7.0/NotificationService.AssemblyInfoInputs.cache
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/obj/Debug/net7.0/NotificationService.AssemblyInfo.cs
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/obj/Debug/net7.0/NotificationService.csproj.CoreCompileInputs.cache
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/obj/Debug/net7.0/NotificationService.dll
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/obj/Debug/net7.0/refint/NotificationService.dll
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/obj/Debug/net7.0/NotificationService.pdb
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/obj/Debug/net7.0/NotificationService.genruntimeconfig.cache
+/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/obj/Debug/net7.0/ref/NotificationService.dll

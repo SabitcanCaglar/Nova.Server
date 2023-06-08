@@ -1,0 +1,15 @@
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/bin/Debug/net7.0/EventBus.RabbitMQ.deps.json
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/bin/Debug/net7.0/EventBus.RabbitMQ.dll
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/bin/Debug/net7.0/EventBus.RabbitMQ.pdb
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/bin/Debug/net7.0/EventBus.Base.dll
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/bin/Debug/net7.0/EventBus.Base.pdb
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/Debug/net7.0/EventBus.RabbitMQ.csproj.AssemblyReference.cache
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/Debug/net7.0/EventBus.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/Debug/net7.0/EventBus.RabbitMQ.AssemblyInfoInputs.cache
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/Debug/net7.0/EventBus.RabbitMQ.AssemblyInfo.cs
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/Debug/net7.0/EventBus.RabbitMQ.csproj.CoreCompileInputs.cache
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/Debug/net7.0/EventBus.RabbitMQ.csproj.CopyComplete
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/Debug/net7.0/EventBus.RabbitMQ.dll
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/Debug/net7.0/refint/EventBus.RabbitMQ.dll
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/Debug/net7.0/EventBus.RabbitMQ.pdb
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/Debug/net7.0/ref/EventBus.RabbitMQ.dll

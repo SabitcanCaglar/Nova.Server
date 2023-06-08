@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yK3Ebroh5dPU+X1I50eXqWp48CYw+rTas77dmB8/RJwgJy3hPZYWfQlocatdWSCh6oqLabwJnEZSsdLfus7xfA==",
+  "dgSpecHash": "Yoj7WBuB8XtX5KEIEHxdfbO8awEOT5aB5Hr3vcTRQ4iXNBaRZXD/TGdnTW2SAcXbQh92MGV4UaQeWZBoW/VKqw==",
   "success": true,
-  "projectFilePath": "/Users/workstation/RiderProjects/Nova/Nova/src/Services/BookingService/BookingService.Application/BookingService.Application.csproj",
+  "projectFilePath": "/Users/admin/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Application/BookingService.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
