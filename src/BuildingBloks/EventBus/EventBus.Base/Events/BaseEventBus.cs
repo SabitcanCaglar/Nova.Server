@@ -24,7 +24,7 @@ public abstract class BaseEventBus : IEventBus
         if (_eventBusBaseConfig.DeleteEventPrefix)
             eventName = eventName.TrimStart(_eventBusBaseConfig.EventNamePrefix.ToArray());
         if (_eventBusBaseConfig.DeleteEventSuffix)
-            eventName = eventName.TrimStart(_eventBusBaseConfig.EventNameSuffix.ToArray());
+            eventName = eventName.TrimEnd(_eventBusBaseConfig.EventNameSuffix.ToArray());
 
         return eventName;
     }

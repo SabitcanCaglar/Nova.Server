@@ -39,13 +39,14 @@ public class EventBusRabbitMQ :BaseEventBus
 
     private void EventBusSubscriptionManagerOnOnEventRemoved(object? sender, string eventName)
     {
-        eventName = ProcessEventName(eventName);
+        
+        var queueName = GetSubName(eventName);
 
         if (!_persistentConnection.IsConnected)
         {
             _persistentConnection.TryConnect();
         }
-        _consumerChannel.QueueBind(queue:eventName,
+        _consumerChannel.QueueBind(queue:queueName,
             exchange: _eventBusBaseConfig.DefaultTopicName,
             routingKey:eventName);
 
