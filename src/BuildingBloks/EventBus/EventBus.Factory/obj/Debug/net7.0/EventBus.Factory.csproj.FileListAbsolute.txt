@@ -1,0 +1,17 @@
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/bin/Debug/net7.0/EventBus.Factory.deps.json
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/bin/Debug/net7.0/EventBus.Factory.dll
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/bin/Debug/net7.0/EventBus.Factory.pdb
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/bin/Debug/net7.0/EventBus.Base.dll
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/bin/Debug/net7.0/EventBus.RabbitMQ.dll
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/bin/Debug/net7.0/EventBus.Base.pdb
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/bin/Debug/net7.0/EventBus.RabbitMQ.pdb
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/obj/Debug/net7.0/EventBus.Factory.csproj.AssemblyReference.cache
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/obj/Debug/net7.0/EventBus.Factory.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/obj/Debug/net7.0/EventBus.Factory.AssemblyInfoInputs.cache
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/obj/Debug/net7.0/EventBus.Factory.AssemblyInfo.cs
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/obj/Debug/net7.0/EventBus.Factory.csproj.CoreCompileInputs.cache
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/obj/Debug/net7.0/EventBus.Factory.csproj.CopyComplete
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/obj/Debug/net7.0/EventBus.Factory.dll
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/obj/Debug/net7.0/refint/EventBus.Factory.dll
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/obj/Debug/net7.0/EventBus.Factory.pdb
+/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/obj/Debug/net7.0/ref/EventBus.Factory.dll

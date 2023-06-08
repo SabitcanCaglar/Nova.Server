@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IdentityService.Api
-build_property.ProjectDir = /Users/workstation/RiderProjects/Nova/Nova/src/Services/IdentityService/IdentityService.Api/
+build_property.ProjectDir = /Users/admin/RiderProjects/Nova.Server/src/Services/IdentityService/IdentityService.Api/

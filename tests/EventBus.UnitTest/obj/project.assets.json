@@ -2295,19 +2295,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/workstation/.nuget/packages/": {}
+    "/Users/admin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/workstation/RiderProjects/Nova/Nova/tests/EventBus.UnitTest/EventBus.UnitTest.csproj",
+      "projectUniqueName": "/Users/admin/RiderProjects/Nova.Server/tests/EventBus.UnitTest/EventBus.UnitTest.csproj",
       "projectName": "EventBus.UnitTest",
-      "projectPath": "/Users/workstation/RiderProjects/Nova/Nova/tests/EventBus.UnitTest/EventBus.UnitTest.csproj",
-      "packagesPath": "/Users/workstation/.nuget/packages/",
-      "outputPath": "/Users/workstation/RiderProjects/Nova/Nova/tests/EventBus.UnitTest/obj/",
+      "projectPath": "/Users/admin/RiderProjects/Nova.Server/tests/EventBus.UnitTest/EventBus.UnitTest.csproj",
+      "packagesPath": "/Users/admin/.nuget/packages/",
+      "outputPath": "/Users/admin/RiderProjects/Nova.Server/tests/EventBus.UnitTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/workstation/.nuget/NuGet/NuGet.Config"
+        "/Users/admin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -2319,8 +2319,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.Factory/EventBus.Factory.csproj": {
-              "projectPath": "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.Factory/EventBus.Factory.csproj"
+            "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/EventBus.Factory.csproj": {
+              "projectPath": "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Factory/EventBus.Factory.csproj"
             }
           }
         }
@@ -2380,7 +2380,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/workstation/.dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

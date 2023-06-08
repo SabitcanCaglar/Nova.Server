@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {}
+    "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {}
   },
   "projects": {
-    "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+    "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Base/EventBus.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.Base/EventBus.Base.csproj",
+        "projectUniqueName": "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Base/EventBus.Base.csproj",
         "projectName": "EventBus.Base",
-        "projectPath": "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.Base/EventBus.Base.csproj",
-        "packagesPath": "/Users/workstation/.nuget/packages/",
-        "outputPath": "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.Base/obj/",
+        "projectPath": "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Base/EventBus.Base.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Base/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/workstation/.nuget/NuGet/NuGet.Config"
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -63,21 +63,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/workstation/.dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {
+    "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
+        "projectUniqueName": "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
         "projectName": "EventBus.RabbitMQ",
-        "projectPath": "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
-        "packagesPath": "/Users/workstation/.nuget/packages/",
-        "outputPath": "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/",
+        "projectPath": "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.RabbitMQ/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/workstation/.nuget/NuGet/NuGet.Config"
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -89,8 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.Base/EventBus.Base.csproj": {
-                "projectPath": "/Users/workstation/RiderProjects/Nova/Nova/src/BuildingBloks/EventBus/EventBus.Base/EventBus.Base.csproj"
+              "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+                "projectPath": "/Users/admin/RiderProjects/Nova.Server/src/BuildingBloks/EventBus/EventBus.Base/EventBus.Base.csproj"
               }
             }
           }
@@ -130,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/workstation/.dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
