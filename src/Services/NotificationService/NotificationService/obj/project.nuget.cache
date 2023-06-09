@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PSxJe6q/tnvsE0kMV24mDPM5b//nRgjLrLD2eGJ/55qMBZD7athw3dR/GOixaiz3HI2EBa9w9r4MarPP5tOkXQ==",
+  "dgSpecHash": "2NZ8DvWVr8BYBrR/uCLGuLSXQCDd5g8jJv18FPdNmA2qA3Ii2aAakXTCHw1URgKU8LITYPc5QcTyMyVUhIhbrg==",
   "success": true,
-  "projectFilePath": "/Users/admin/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/NotificationService.csproj",
+  "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/NotificationService/NotificationService/NotificationService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

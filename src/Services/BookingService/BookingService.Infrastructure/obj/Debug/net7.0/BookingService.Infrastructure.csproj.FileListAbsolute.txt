@@ -10,3 +10,15 @@
 /Users/admin/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/refint/BookingService.Infrastructure.dll
 /Users/admin/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/BookingService.Infrastructure.pdb
 /Users/admin/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/ref/BookingService.Infrastructure.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/bin/Debug/net7.0/BookingService.Infrastructure.deps.json
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/bin/Debug/net7.0/BookingService.Infrastructure.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/bin/Debug/net7.0/BookingService.Infrastructure.pdb
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/BookingService.Infrastructure.csproj.AssemblyReference.cache
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/BookingService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/BookingService.Infrastructure.AssemblyInfoInputs.cache
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/BookingService.Infrastructure.AssemblyInfo.cs
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/BookingService.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/BookingService.Infrastructure.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/refint/BookingService.Infrastructure.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/BookingService.Infrastructure.pdb
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Infrastructure/obj/Debug/net7.0/ref/BookingService.Infrastructure.dll
