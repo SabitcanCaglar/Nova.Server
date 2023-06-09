@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NDDsTFe3Zs+P7U5k0ljf575KSuwa4s3RONrSAolipMJvt8JEYBIP+NN4qCbKPlhAcNpOhjBNuJKqaPKH/9SRMg==",
+  "dgSpecHash": "2fLeUE/i+8R85KsPMCNwNZXuennwcCzQfZ56ngo4Z5GBUpLn2ZjL9fE2tnP9pshugldsUXOPduSWyJzb8PSseQ==",
   "success": true,
   "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Api/Base.Api.csproj",
   "expectedPackageFiles": [
+    "/Users/workstation_1_2/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/microsoft.aspnetcore.openapi/7.0.1/microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",

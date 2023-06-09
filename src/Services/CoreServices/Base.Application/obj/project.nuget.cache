@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "r9UGn1sFkHTvBeultakx4jo87JbkE47iQoOm8LbbyxJAQY0qNmrKN6A4kgLGbKe7WJh1/kuVOi8nYsAcDPDlgQ==",
+  "dgSpecHash": "cbNl4kqJjNYSn1IZIz6/MUQw3o23eXb3b2zt1r0BM9fydv8Yzd0BDCYJkirIINfymYxMCWMInMjMyQ0ixtbZaA==",
   "success": true,
   "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/Base.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/workstation_1_2/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512"
+  ],
   "logs": []
 }
