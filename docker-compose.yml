@@ -8,6 +8,19 @@ services:
       - 5672:5672
       - 15672:15672
     volumes:
-    - rabbitmq:/var/lib/rabbitmq
+      - rabbitmq:/var/lib/rabbitmq
+    
+  mssql:
+    container_name: c_mssql
+    image: mcr.microsoft.com/mssql/server:latest
+    environment:
+      ACCEPT_EULA: 'Y'
+      SA_PASSWORD: 'nova_server_SA_PASSWORD'
+    ports:
+      - 1433:1433
+    volumes:
+      - mssql:/var/lib/mssql
+
 volumes:
-    rabbitmq:
+  rabbitmq:
+  mssql:
