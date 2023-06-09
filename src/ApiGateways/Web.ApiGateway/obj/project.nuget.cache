@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "rZSedcEdNmBl6YxrPqzjTFYq54C+Wi6eLgt/PdSOuiTUuJKE1FTiC/sFYh/lPBSuV2U12fzHTvBsUlHSqNG+7g==",
+  "dgSpecHash": "Xw2p+BZW2o3OzcT7/hO0E5QRGK/1U5MFL6dK/hAddGQq6kPNet15Apd1IzORzWebdflUKoE+31XRsUYGjSc6eg==",
   "success": true,
-  "projectFilePath": "/Users/admin/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/Web.ApiGateway.csproj",
+  "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/Web.ApiGateway.csproj",
   "expectedPackageFiles": [
-    "/Users/admin/.nuget/packages/microsoft.aspnetcore.openapi/7.0.1/microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
-    "/Users/admin/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/Users/admin/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
-    "/Users/admin/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "/Users/admin/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "/Users/admin/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "/Users/admin/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "/Users/workstation_1_2/.nuget/packages/microsoft.aspnetcore.openapi/7.0.1/microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
   ],
   "logs": []
 }

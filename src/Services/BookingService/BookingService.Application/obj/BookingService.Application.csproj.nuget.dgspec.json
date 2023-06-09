@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/admin/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Application/BookingService.Application.csproj": {}
+    "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Application/BookingService.Application.csproj": {}
   },
   "projects": {
-    "/Users/admin/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Application/BookingService.Application.csproj": {
+    "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Application/BookingService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/admin/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Application/BookingService.Application.csproj",
+        "projectUniqueName": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Application/BookingService.Application.csproj",
         "projectName": "BookingService.Application",
-        "projectPath": "/Users/admin/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Application/BookingService.Application.csproj",
-        "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Users/admin/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Application/obj/",
+        "projectPath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Application/BookingService.Application.csproj",
+        "packagesPath": "/Users/workstation_1_2/.nuget/packages/",
+        "outputPath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/BookingService/BookingService.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/admin/.nuget/NuGet/NuGet.Config"
+          "/Users/workstation_1_2/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/workstation_1_2/.dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
