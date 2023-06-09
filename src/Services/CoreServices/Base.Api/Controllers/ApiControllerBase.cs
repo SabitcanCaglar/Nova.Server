@@ -2,7 +2,7 @@ using MediatR;
 
 using Microsoft.AspNetCore.Mvc;
 
-namespace CleanArchitecture.WebAPI.Controllers;
+namespace CleanArchitecture.WebUI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
