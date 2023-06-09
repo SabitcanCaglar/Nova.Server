@@ -1,10 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "cbNl4kqJjNYSn1IZIz6/MUQw3o23eXb3b2zt1r0BM9fydv8Yzd0BDCYJkirIINfymYxMCWMInMjMyQ0ixtbZaA==",
+  "dgSpecHash": "BtBLmKuyx7amrXf4xIX6BdUfreeS0nnX08jamKdvcnFwz1eOiiLpUXqqDNWF2xSaYc0CTKT/MGkErS66dprS6Q==",
   "success": true,
   "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/Base.Application.csproj",
   "expectedPackageFiles": [
-    "/Users/workstation_1_2/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512"
+    "/Users/workstation_1_2/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.entityframeworkcore/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.8.0.0-preview.4.23259.3.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.abstractions.8.0.0-preview.4.23259.3.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.analyzers.8.0.0-preview.4.23259.3.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.caching.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.caching.memory/8.0.0-preview.4.23259.5/microsoft.extensions.caching.memory.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0-preview.4.23259.5/microsoft.extensions.dependencyinjection.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.logging/8.0.0-preview.4.23259.5/microsoft.extensions.logging.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.logging.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.options/8.0.0-preview.4.23259.5/microsoft.extensions.options.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.primitives/8.0.0-preview.4.23259.5/microsoft.extensions.primitives.8.0.0-preview.4.23259.5.nupkg.sha512"
   ],
   "logs": []
 }

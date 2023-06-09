@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QHbIpElAdYRs8F7FkJs01IqlXNI7rZaphjzj9PGuPYgeDkXz4N0hr6pG0U9JO6N9Na3RCqM8s2uEdOgAyWUcKA==",
+  "dgSpecHash": "YPfX/EKffZSMOWCSkGgwvIZfFWiOdDm1jJ0DR8C2FQO3Ble2QY/6vSSfogmYVF0WjYAVlpT9vzgdhYe3OSnb2Q==",
   "success": true,
   "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Domain/Base.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/workstation_1_2/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

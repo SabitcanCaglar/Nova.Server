@@ -22,4 +22,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Services\CoreServices\Base.Api\Base.Api.csproj" />
+    </ItemGroup>
+
 </Project>
