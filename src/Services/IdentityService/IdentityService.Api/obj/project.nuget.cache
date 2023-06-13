@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "MKGZTLtaE/r9ZMjS4mXEVxRbkciWPLXZWH08IdMZqrtrLwNheiVlOnmgOYQyT0C4zORAjgE4Py0GixDRr811fQ==",
+  "dgSpecHash": "xYnBALJ75GCexVxqal106JLv799yV67ghWdNBTutMV8InCgVPisTt9FNzmGHa7hfpreDLgilw/Fy5ACFeqJyzQ==",
   "success": true,
   "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/IdentityService/IdentityService.Api/IdentityService.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/workstation_1_2/.nuget/packages/microsoft.aspnetcore.openapi/7.0.1/microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
   "logs": []
 }
