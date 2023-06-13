@@ -12,7 +12,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
+      <ProjectReference Include="..\..\CoreServices\Base.Api\Base.Api.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Application\Services\" />
     </ItemGroup>
 
 </Project>
