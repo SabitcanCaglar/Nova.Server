@@ -1,54 +1,49 @@
-using IdentityService.Api.Abstract;
+using Application.Features.Auths.Dtos;
+using Base.Api.Controllers;
+using Base.Domain.Entities.Identity;
+using IdentityService.Api.Application.Features.Auths.Commands.Login;
+using IdentityService.Api.Application.Features.Auths.Commands.Register;
+using IdentityService.Api.Application.Models.Login;
+using IdentityService.Api.Application.Models.Register;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IdentityService.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController:Controller
+    public class AuthController: ApiControllerBase
     {
-        private readonly IAuthService _authService;
-
-        public AuthController(IAuthService authService)
-        {
-            _authService = authService;
-        }
 
         [HttpPost("login")]
-        public ActionResult Login(UserForLoginDto userForLoginDto)
+        public async Task<IActionResult> Login([FromBody] LoginRequestDto loginRequestDto)
         {
-            var userToLogin = _authService.Login(userForLoginDto);
-            if (!userToLogin.Success)
+            LoginCommand loginCommand = new()
             {
-                return BadRequest(userToLogin.Message);
-            }
+                LoginRequestDto = loginRequestDto,
+            };
 
-            var result = _authService.CreateAccessToken(userToLogin.Data);
-            if (result.Success)
-            {
-                return Ok(result.Data);
-            }
-
-            return BadRequest(result.Message);
+            var result = await Mediator.Send(loginCommand);
+            return Ok(result);
         }
-
+        
         [HttpPost("register")]
-        public ActionResult Register(UserForRegisterDto userForRegisterDto)
+        public async Task<IActionResult> Register([FromBody] RegisterRequestDto registerRequestDto)
         {
-            var userExists = _authService.UserExists(userForRegisterDto.Email);
-            if (!userExists.Success)
+            RegisterCommand registerCommand = new()
             {
-                return BadRequest(userExists.Message);
-            }
+                RegisterRequestDto = registerRequestDto,
+            };
 
-            var registerResult = _authService.Register(userForRegisterDto,userForRegisterDto.Password);
-            var result = _authService.CreateAccessToken(registerResult.Data);
-            if (result.Success)
-            {
-                return Ok(result.Data);
-            }
-
-            return BadRequest(result.Message);
+            RegisteredDto result = await Mediator.Send(registerCommand);
+            SetRefreshTokenToCookie(result.RefreshToken);
+            return Created("",result.AccessToken);
         }
+
+        private void SetRefreshTokenToCookie(RefreshToken refreshToken)
+        {
+            CookieOptions cookieOptions = new() { HttpOnly = true ,Expires = DateTime.Now.AddDays(7)};
+            Response.Cookies.Append("refreshToken",refreshToken.Token, cookieOptions);
+        }
+        
     }
 }

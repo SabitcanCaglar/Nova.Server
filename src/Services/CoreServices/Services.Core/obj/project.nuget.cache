@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "BMbQOOAMtIjm+yWrfCJxMSIGzxDJRLlEh+iS1V3zzsaIf1KBxmc4mrOiWl8rOKXA34YB3dVRYDDWeSR71/02Tg==",
+  "success": true,
+  "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/Services.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/workstation_1_2/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.identitymodel.abstractions/6.21.0/microsoft.identitymodel.abstractions.6.21.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.21.0/microsoft.identitymodel.jsonwebtokens.6.21.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.identitymodel.logging/6.21.0/microsoft.identitymodel.logging.6.21.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.identitymodel.tokens/6.21.0/microsoft.identitymodel.tokens.6.21.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

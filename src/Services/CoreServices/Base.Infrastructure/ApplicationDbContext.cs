@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using Base.Application.Common.Interfaces;
+using Base.Domain.Entities.Identity;
 using Base.Infrastructure.Common;
-using Base.Infrastructure.Identity;
 using Base.Infrastructure.Persistence.Interceptors;
 using Duende.IdentityServer.EntityFramework.Options;
 using MediatR;
@@ -11,7 +11,7 @@ using Microsoft.Extensions.Options;
 
 namespace Base.Infrastructure;
 
-public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, IApplicationDbContext
+public class ApplicationDbContext : ApiAuthorizationDbContext<User>, IApplicationDbContext
 {
     private readonly IMediator _mediator;
     private readonly AuditableEntitySaveChangesInterceptor _auditableEntitySaveChangesInterceptor;
@@ -27,7 +27,7 @@ public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, 
         _auditableEntitySaveChangesInterceptor = auditableEntitySaveChangesInterceptor;
     }
 
-    // public DbSet<ENTİTY> TodoLists => Set<TodoList>();
+    public DbSet<User> Users => Set<User>();
 
 
     protected override void OnModelCreating(ModelBuilder builder)

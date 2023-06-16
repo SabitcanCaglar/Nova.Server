@@ -23,8 +23,8 @@
         </PackageReference>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.5" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.4.23259.5" />
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0-preview.4.23259.5" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
         <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="7.0.5" />
         <PackageReference Include="NSwag.AspNetCore" Version="13.19.0" />
         <PackageReference Include="NSwag.MSBuild" Version="13.19.0">
@@ -45,6 +45,20 @@
 
     <ItemGroup>
       <None Remove="Properties\launchSettings.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Debug\net7.0\Base.Api.csproj.CopyComplete" />
+      <Content Include="obj\Debug\net7.0\Base.Api.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net7.0\Base.Api.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net7.0\Base.Api.MvcApplicationPartsAssemblyInfo.cache" />
+      <Content Include="obj\Debug\net7.0\Base.Api.pdb" />
+      <Content Include="obj\Debug\net7.0\spa.proxy.json" />
+      <Content Include="obj\Debug\net7.0\staticwebassets.build.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="obj\Debug\net7.0\Base.Api.MvcApplicationPartsAssemblyInfo.cs" />
     </ItemGroup>
 
 </Project>

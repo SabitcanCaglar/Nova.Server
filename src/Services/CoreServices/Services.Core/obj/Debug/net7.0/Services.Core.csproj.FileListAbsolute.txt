@@ -1,0 +1,12 @@
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/bin/Debug/net7.0/Services.Core.deps.json
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/bin/Debug/net7.0/Services.Core.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/bin/Debug/net7.0/Services.Core.pdb
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/obj/Debug/net7.0/Services.Core.csproj.AssemblyReference.cache
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/obj/Debug/net7.0/Services.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/obj/Debug/net7.0/Services.Core.AssemblyInfoInputs.cache
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/obj/Debug/net7.0/Services.Core.AssemblyInfo.cs
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/obj/Debug/net7.0/Services.Core.csproj.CoreCompileInputs.cache
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/obj/Debug/net7.0/Services.Core.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/obj/Debug/net7.0/refint/Services.Core.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/obj/Debug/net7.0/Services.Core.pdb
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Services.Core/obj/Debug/net7.0/ref/Services.Core.dll

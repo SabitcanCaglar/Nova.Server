@@ -7,16 +7,46 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Duende.IdentityServer.Storage" Version="6.0.4" />
+        <PackageReference Include="MediatR" Version="11.0.0" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.1" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+        <PackageReference Include="System.Security.Claims" Version="4.3.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\..\CoreServices\Base.Api\Base.Api.csproj" />
+      <ProjectReference Include="..\..\CoreServices\Services.Core\Services.Core.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Application\Services\" />
+      <Folder Include="Application\Services\Managers\" />
+      <Folder Include="Infrastructure\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Abstract\" />
+      <Content Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="obj\Debug\net7.0\IdentityService.Api.MvcApplicationPartsAssemblyInfo.cs" />
+      <Compile Remove="Abstract\IAuthService.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Debug\net7.0\apphost" />
+      <Content Include="obj\Debug\net7.0\IdentityService.Api.csproj.CopyComplete" />
+      <Content Include="obj\Debug\net7.0\IdentityService.Api.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net7.0\IdentityService.Api.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net7.0\IdentityService.Api.dll" />
+      <Content Include="obj\Debug\net7.0\IdentityService.Api.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net7.0\IdentityService.Api.MvcApplicationPartsAssemblyInfo.cache" />
+      <Content Include="obj\Debug\net7.0\IdentityService.Api.pdb" />
+      <Content Include="obj\Debug\net7.0\staticwebassets.build.json" />
     </ItemGroup>
 
 </Project>

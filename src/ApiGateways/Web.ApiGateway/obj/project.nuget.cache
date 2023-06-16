@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pdDs4Fw2pcxKsyxraA5eqfkm1qocu2n9RAHKJ8wF0BfI2qRVvSkBg70bvYis+Y9SZ+4PJTF6gP9MNCbx1TXcsw==",
+  "dgSpecHash": "7pwqlbMAfQNdixZO4kvvak6Sm+btQaejruYi0zjodm1q1ShnU4lj7SkS1Aj0PgGkvl3+vTIrFq/rgY31Vj4YDw==",
   "success": true,
   "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/Web.ApiGateway.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,7 @@
     "/Users/workstation_1_2/.nuget/packages/identitymodel/6.0.0/identitymodel.6.0.0.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/Users/workstation_1_2/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/microsoft.aspnetcore.apiauthorization.identityserver/7.0.5/microsoft.aspnetcore.apiauthorization.identityserver.7.0.5.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.5/microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/6.0.0/microsoft.aspnetcore.authentication.openidconnect.6.0.0.nupkg.sha512",
@@ -50,8 +50,8 @@
     "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.configuration.binder/7.0.4/microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
-    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0-preview.4.23259.5/microsoft.extensions.dependencyinjection.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/7.0.5/microsoft.extensions.diagnostics.healthchecks.7.0.5.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/7.0.5/microsoft.extensions.diagnostics.healthchecks.abstractions.7.0.5.nupkg.sha512",
