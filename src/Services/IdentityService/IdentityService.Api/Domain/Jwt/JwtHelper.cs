@@ -46,7 +46,7 @@ namespace IdentityService.Api.Domain.Jwt
         {
             RefreshToken refreshToken = new()
             {
-                UserId = Guid.Parse(user.Id),
+                UserId = user.Id,
                 Token = Convert.ToBase64String(RandomNumberGenerator.GetBytes(64)),
                 Expires = DateTime.UtcNow.AddDays(7),
                 Created = DateTime.UtcNow,

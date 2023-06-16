@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hESCJeP98vbeUJ/jzNYCQInevbiSWexpL12SwiKkcEs=",
+  "Hash": "N93oPnjpQ6Z1QnhMZZopTXTaVQA6tPZG1US7343H+c0=",
   "Source": "Web.ApiGateway",
   "BasePath": "_content/Web.ApiGateway",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "Base.Api",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],

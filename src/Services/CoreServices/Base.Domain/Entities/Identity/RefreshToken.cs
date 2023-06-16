@@ -5,7 +5,7 @@ namespace Base.Domain.Entities.Identity;
 
 public class RefreshToken : BaseEntity
 {
-    public Guid UserId { get; set; }
+    public string UserId { get; set; }
     public string Token { get; set; }
     public DateTime Expires { get; set; }
     public DateTime Created { get; set; }

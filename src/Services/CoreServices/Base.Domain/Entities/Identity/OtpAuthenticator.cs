@@ -6,7 +6,7 @@ namespace Base.Domain.Entities.Identity;
 
 public class OtpAuthenticator : BaseEntity
 {
-    public Guid UserId { get; set; }
+    public string UserId { get; set; }
     public byte[] SecretKey { get; set; }
     public bool IsVerified { get; set; }
 
@@ -16,7 +16,7 @@ public class OtpAuthenticator : BaseEntity
     {
     }
 
-    public OtpAuthenticator(int id, Guid userId, byte[] secretKey, bool isVerified) : this()
+    public OtpAuthenticator(int id, string userId, byte[] secretKey, bool isVerified) : this()
     {
         Id = id;
         UserId = userId;
