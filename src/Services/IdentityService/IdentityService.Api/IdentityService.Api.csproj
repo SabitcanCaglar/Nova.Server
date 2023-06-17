@@ -21,12 +21,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Application\Services\Managers\" />
       <Folder Include="Infrastructure\" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Abstract\" />
       <Content Update="appsettings.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
