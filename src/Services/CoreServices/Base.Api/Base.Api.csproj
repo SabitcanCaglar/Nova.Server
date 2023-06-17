@@ -48,6 +48,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Content Include="obj\Debug\net7.0\apphost" />
       <Content Include="obj\Debug\net7.0\Base.Api.csproj.CopyComplete" />
       <Content Include="obj\Debug\net7.0\Base.Api.csproj.CoreCompileInputs.cache" />
       <Content Include="obj\Debug\net7.0\Base.Api.genruntimeconfig.cache" />
