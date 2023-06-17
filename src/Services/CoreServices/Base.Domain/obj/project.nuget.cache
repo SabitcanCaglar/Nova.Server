@@ -1,10 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "YPfX/EKffZSMOWCSkGgwvIZfFWiOdDm1jJ0DR8C2FQO3Ble2QY/6vSSfogmYVF0WjYAVlpT9vzgdhYe3OSnb2Q==",
+  "dgSpecHash": "BYCbJ4+Qu8p/pC7zyy6+R6YNbR2Ox25WygDawt1zWKFc1ecZjuV1gNTRD5PCNzYHfbmc2VPJw9U9PCmEBE3ktw==",
   "success": true,
   "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Domain/Base.Domain.csproj",
   "expectedPackageFiles": [
-    "/Users/workstation_1_2/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512"
+    "/Users/workstation_1_2/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.5/microsoft.aspnetcore.cryptography.internal.7.0.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/7.0.5/microsoft.aspnetcore.cryptography.keyderivation.7.0.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.identity.core/7.0.5/microsoft.extensions.identity.core.7.0.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.identity.stores/7.0.5/microsoft.extensions.identity.stores.7.0.5.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

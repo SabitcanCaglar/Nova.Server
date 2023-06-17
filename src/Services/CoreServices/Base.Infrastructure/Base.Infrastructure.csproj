@@ -26,4 +26,12 @@
       <ProjectReference Include="..\Base.Domain\Base.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="obj\Debug\net7.0\Base.Infrastructure.csproj.CopyComplete" />
+      <Content Include="obj\Debug\net7.0\Base.Infrastructure.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net7.0\Base.Infrastructure.dll" />
+      <Content Include="obj\Debug\net7.0\Base.Infrastructure.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net7.0\Base.Infrastructure.pdb" />
+    </ItemGroup>
+
 </Project>

@@ -1,4 +1,4 @@
-﻿using Base.Infrastructure.Identity;
+﻿using Base.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -9,10 +9,10 @@ public class ApplicationDbContextInitialiser
 {
     private readonly ILogger<ApplicationDbContextInitialiser> _logger;
     private readonly ApplicationDbContext _context;
-    private readonly UserManager<ApplicationUser> _userManager;
+    private readonly UserManager<User> _userManager;
     private readonly RoleManager<IdentityRole> _roleManager;
 
-    public ApplicationDbContextInitialiser(ILogger<ApplicationDbContextInitialiser> logger, ApplicationDbContext context, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+    public ApplicationDbContextInitialiser(ILogger<ApplicationDbContextInitialiser> logger, ApplicationDbContext context, UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
     {
         _logger = logger;
         _context = context;
@@ -57,7 +57,7 @@ public class ApplicationDbContextInitialiser
         }
 
         // Default users
-        var administrator = new ApplicationUser { UserName = "admin@localhost", Email = "admin@localhost" };
+        var administrator = new User { UserName = "AdminNova", Email = "admin@localhost" };
 
         if (_userManager.Users.All(u => u.UserName != administrator.UserName))
         {

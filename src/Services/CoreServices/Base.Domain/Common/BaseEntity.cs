@@ -2,7 +2,7 @@
 
 namespace Base.Domain.Common;
 
-public abstract class BaseEntity
+public abstract class BaseEntity :IEntity
 {
     public int Id { get; set; }
     public BaseEntity()

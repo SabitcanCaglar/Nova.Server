@@ -1,5 +1,5 @@
 ﻿using Base.Application.Common.Interfaces;
-using Base.Infrastructure.Identity;
+using Base.Domain.Entities.Identity;
 using Base.Infrastructure.Persistence;
 using Base.Infrastructure.Persistence.Interceptors;
 using Base.Infrastructure.Services;
@@ -34,15 +34,14 @@ public static class BaseConfigureServices
         services.AddScoped<ApplicationDbContextInitialiser>();
 
         services
-            .AddDefaultIdentity<ApplicationUser>()
+            .AddDefaultIdentity<User>()
             .AddRoles<IdentityRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>();
 
         services.AddIdentityServer()
-            .AddApiAuthorization<ApplicationUser, ApplicationDbContext>();
-
+            .AddApiAuthorization<User, ApplicationDbContext>();
         services.AddTransient<IDateTime, DateTimeService>();
-        services.AddTransient<IIdentityService, IdentityService>();
+        
 
         services.AddAuthentication()
             .AddIdentityServerJwt();

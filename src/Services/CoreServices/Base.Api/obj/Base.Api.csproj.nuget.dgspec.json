@@ -101,11 +101,11 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0-preview.4.23259.5, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[8.0.0-preview.4.23259.5, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
               "target": "Package",
@@ -170,7 +170,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Domain/Base.Domain.csproj": {
+                "projectPath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Domain/Base.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -201,7 +205,7 @@
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -281,6 +285,10 @@
             "MediatR.Contracts": {
               "target": "Package",
               "version": "[2.0.1, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[7.0.5, )"
             }
           },
           "imports": [

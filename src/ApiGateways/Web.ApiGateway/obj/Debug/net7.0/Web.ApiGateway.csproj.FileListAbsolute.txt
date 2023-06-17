@@ -78,8 +78,6 @@
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
-/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll
-/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll

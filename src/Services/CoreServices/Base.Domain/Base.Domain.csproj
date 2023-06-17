@@ -8,6 +8,13 @@
 
     <ItemGroup>
       <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
+      <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Debug\net7.0\Base.Domain.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net7.0\Base.Domain.dll" />
+      <Content Include="obj\Debug\net7.0\Base.Domain.pdb" />
     </ItemGroup>
 
 </Project>
