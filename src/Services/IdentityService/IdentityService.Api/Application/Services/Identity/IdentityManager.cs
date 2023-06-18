@@ -24,7 +24,7 @@ public class IdentityManager : IIdentityService
         _authorizationService       = authorizationService;
     }
 
-    public Guid UserId { get; set; }
+    public virtual Guid UserId { get; set; }
 
     public async Task<DataResult<User>> GetUserAsync(string userId)
     {
@@ -32,13 +32,13 @@ public class IdentityManager : IIdentityService
 
         return new SuccessDataResult<User>(user);
     }
-    public async Task<DataResult<User>> GetUserWithEmailAsync(string email)
+    public virtual async Task<DataResult<User>> GetUserWithEmailAsync(string email)
     {
         var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Email == email);
 
         return new SuccessDataResult<User>(user);
     }
-    public async Task<(DataResult<User?> Result, string ApplicationUserId)> CreateUserAsync(User user, string password)
+    public virtual async Task<(DataResult<User?> Result, string ApplicationUserId)> CreateUserAsync(User user, string password)
     {
         
         var result = await _userManager.CreateAsync(user, password);
@@ -51,14 +51,14 @@ public class IdentityManager : IIdentityService
         }
     }
 
-    public async Task<bool> IsInRoleAsync(string userId, string role)
+    public virtual async Task<bool> IsInRoleAsync(string userId, string role)
     {
         var user = _userManager.Users.SingleOrDefault(u => u.Id == userId);
 
         return user != null && await _userManager.IsInRoleAsync(user, role);
     }
 
-    public async Task<bool> AuthorizeAsync(string userId, string policyName)
+    public virtual async Task<bool> AuthorizeAsync(string userId, string policyName)
     {
         var user = _userManager.Users.SingleOrDefault(u => u.Id == userId);
 
@@ -74,14 +74,14 @@ public class IdentityManager : IIdentityService
         return result.Succeeded;
     }
 
-    public async Task<Result> DeleteUserAsync(string userId)
+    public virtual async Task<Result> DeleteUserAsync(string userId)
     {
         var user = _userManager.Users.SingleOrDefault(u => u.Id == userId);
 
         return user != null ? await DeleteUserAsync(user) : Result.Success();
     }
 
-    public async Task<Result> DeleteUserAsync(User user)
+    public virtual async Task<Result> DeleteUserAsync(User user)
     {
         var result = await _userManager.DeleteAsync(user);
 

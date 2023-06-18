@@ -15,7 +15,7 @@ namespace IdentityService.Api.Application.Features.Auths.Rules
             _identityService = identityService;
         }
 
-        public async Task EmailCanNotBeDuplicatedWhenRegistered(string email)
+        public virtual async Task EmailCanNotBeDuplicatedWhenRegistered(string email)
         {
             var dataResult = await _identityService.GetUserWithEmailAsync(email);
             if (dataResult.Data != null) throw new BusinessException("Mail already exists");

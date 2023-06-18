@@ -19,13 +19,13 @@ namespace IdentityService.Api.Application.Services.Identity
             _refreshTokenRepository = refreshTokenRepository;
         }
 
-        public async Task<RefreshToken> AddRefreshToken(RefreshToken refreshToken)
+        public virtual async Task<RefreshToken> AddRefreshToken(RefreshToken refreshToken)
         {
             RefreshToken addedRefreshToken = await _refreshTokenRepository.AddAsync(refreshToken);
             return addedRefreshToken;
         }
 
-        public async Task<AccessToken> CreateAccessToken(User user)
+        public virtual async Task<AccessToken> CreateAccessToken(User user)
         {
             var userOperationClaims = await _userOperationClaimRepository.GetListAsync(u => u.UserId == Guid.Parse(user.Id),
                 include: u => u.Include(u => u.OperationClaim) );
@@ -37,7 +37,7 @@ namespace IdentityService.Api.Application.Services.Identity
             return accessToken;
         }
 
-        public async Task<RefreshToken> CreateRefreshToken(User user, string ipAddress)
+        public virtual async Task<RefreshToken> CreateRefreshToken(User user, string ipAddress)
         {
             RefreshToken refreshToken =  _tokenHelper.CreateRefreshToken(user, ipAddress);
             return await Task.FromResult(refreshToken);
