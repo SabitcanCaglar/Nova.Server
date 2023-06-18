@@ -1,12 +1,53 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=22613de1_002D6e0a_002D4a27_002Da356_002Dbe31579c92f6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RegisterCommandTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=88416f31_002Da369_002D4935_002D9e6e_002D36530a21eea7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Handle_ValidRequest_ReturnsRegisteredDto" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::5DA6B30C-EDAB-47EE-8F9B-8AC8093856D4::net7.0::IdentityServivce.UnitTests.Auth.Register.RegisterCommandTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::5DA6B30C-EDAB-47EE-8F9B-8AC8093856D4::net7.0::IdentityService.UnitTest.Auth.Register.RegisterCommandTests.Handle_ValidRequest_ReturnsRegisteredDto&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=998444a9_002D7d60_002D4442_002D9f25_002D97eb7422967d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Handle_ValidRequest_ReturnsRegisteredDto #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::5DA6B30C-EDAB-47EE-8F9B-8AC8093856D4::net7.0::IdentityService.UnitTest.Auth.Register.RegisterCommandTests.Handle_ValidRequest_ReturnsRegisteredDto&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c2db90e8_002D22a7_002D4437_002Da5d9_002D61b4645b99f0/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="3" Name="EventBusTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9b9907cc_002D69e9_002D4e60_002Da782_002D9854c9a8c3c4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Handle_ValidRequest_ReturnsRegisteredDto #23" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::021682DD-6FE7-4DC1-8C4D-88442D82227C::net7.0::EventBus.UnitTest.EventBusTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::5DA6B30C-EDAB-47EE-8F9B-8AC8093856D4::net7.0::IdentityServivce.UnitTest.Auth.Register.RegisterCommandTests.Handle_ValidRequest_ReturnsRegisteredDto&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b22fc3ba_002Dd6ed_002D4ed5_002D8d02_002Df059d73d40ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Handle_ValidRequest_ReturnsRegisteredDto #30" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::5DA6B30C-EDAB-47EE-8F9B-8AC8093856D4::net7.0::IdentityService.UnitTest.Auth.Register.RegisterCommandTests.Handle_ValidRequest_ReturnsRegisteredDto&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bf41f554_002D00ef_002D4bca_002D9522_002D54069c47c8cd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Handle_ValidRequest_ReturnsRegisteredDto #14" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::5DA6B30C-EDAB-47EE-8F9B-8AC8093856D4::net7.0::IdentityServivce.UnitTest.Auth.Register.RegisterCommandTests.Handle_ValidRequest_ReturnsRegisteredDto&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
+	
+	</wpf:ResourceDictionary>

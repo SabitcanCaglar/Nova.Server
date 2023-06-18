@@ -1,0 +1,15 @@
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/bin/Debug/net7.0/Base.Application.deps.json
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/bin/Debug/net7.0/Base.Application.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/bin/Debug/net7.0/Base.Application.pdb
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/bin/Debug/net7.0/Base.Domain.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/bin/Debug/net7.0/Base.Domain.pdb
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/obj/Debug/net7.0/Base.Application.csproj.AssemblyReference.cache
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/obj/Debug/net7.0/Base.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/obj/Debug/net7.0/Base.Application.AssemblyInfoInputs.cache
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/obj/Debug/net7.0/Base.Application.AssemblyInfo.cs
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/obj/Debug/net7.0/Base.Application.csproj.CoreCompileInputs.cache
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/obj/Debug/net7.0/Base.Application.csproj.CopyComplete
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/obj/Debug/net7.0/Base.Application.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/obj/Debug/net7.0/refint/Base.Application.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/obj/Debug/net7.0/Base.Application.pdb
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Application/obj/Debug/net7.0/ref/Base.Application.dll
