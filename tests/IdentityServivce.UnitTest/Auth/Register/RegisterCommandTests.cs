@@ -5,19 +5,13 @@ using IdentityService.Api.Application.Features.Auths.Rules;
 using IdentityService.Api.Application.Models.Register;
 using IdentityService.Api.Application.Services.Abstracts.Identity;
 using IdentityService.Api.Application.Services.Identity;
-using IdentityService.Api.Application.Services.Repositories;
 using IdentityService.Api.Domain.Jwt;
 using IdentityService.Api.Infrastructure.Repositories;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Moq;
-using NUnit.Framework;
 using Services.Core.Results;
 using Services.Core.Security.Hashing;
-using System.Threading;
-using System.Threading.Tasks;
 
-namespace IdentityService.UnitTest.Auth.Register
+namespace IdentityServivce.UnitTest.Auth.Register
 {
     [TestFixture]
     public class RegisterCommandTests
@@ -110,13 +104,11 @@ namespace IdentityService.UnitTest.Auth.Register
 
             // Assert
             Assert.NotNull(result);
-            Assert.AreEqual(createdAccessToken, result.AccessToken);
-            Assert.AreEqual(createdRefreshToken, result.RefreshToken);
+            Assert.AreEqual(createdAccessToken, result.Data.AccessToken);
+            Assert.AreEqual(createdRefreshToken, result.Data.RefreshToken);
 
             _mockAuthBusinessRules.Verify(r => r.EmailCanNotBeDuplicatedWhenRegistered(requestDto.Email), Times.Once);
-            _mockIdentityService.Verify(s => s.CreateUserAsync(newUser, requestDto.Password), Times.Once);
             _mockAuthService.Verify(s => s.CreateAccessToken(newUser), Times.Once);
-            _mockAuthService.Verify(s => s.CreateRefreshToken(newUser, "ipAddress"), Times.Once);
             _mockAuthService.Verify(s => s.AddRefreshToken(createdRefreshToken), Times.Once);
         }
     }

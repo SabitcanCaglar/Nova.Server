@@ -29,7 +29,7 @@ namespace IdentityService.Api.Application.Features.Auths.Commands.Login
 
                 var userDataResult =await _identityService.GetUserAsync(request.LoginRequestDto.Email);
                 
-                if (userDataResult.Success)
+                if (!userDataResult.Success)
                 {
                     return new ErrorDataResult<LoginResponseDto>("User not found!");
                 }
