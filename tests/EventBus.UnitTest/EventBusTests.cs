@@ -26,7 +26,7 @@ public class EventBusTests
     }
 
     [Test]
-    public void subscribe_and_unsubscribe_event_on_rabbitmq_test_01()
+    public void  T_01_subscribe_and_unsubscribe_event_on_rabbitmq_test()
     {
         var sp = _serviceCollection.BuildServiceProvider();
         var eventBus = sp.GetRequiredService<IEventBus>();
@@ -35,7 +35,7 @@ public class EventBusTests
     }
     
     [Test]
-    public void send_message_to_rabbitmq_02()
+    public void T_02_send_message_to_rabbitmq_02()
     {
         var sp = _serviceCollection.BuildServiceProvider();
         var eventBus = sp.GetRequiredService<IEventBus>();

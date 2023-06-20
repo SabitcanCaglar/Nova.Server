@@ -48,7 +48,7 @@ namespace IdentityServivce.UnitTest.Auth.Register
         }
 
         [Test]
-        public async Task Handle_ValidRequest_ReturnsRegisteredDto()
+        public async Task T_01_handle_valid_request_returns_registeredDto()
         {
             // Arrange
             var requestDto = new RegisterRequestDto

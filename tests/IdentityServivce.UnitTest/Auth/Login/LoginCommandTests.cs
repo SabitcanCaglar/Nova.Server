@@ -38,7 +38,7 @@ namespace IdentityServivce.UnitTest.Auth.Login
         }
 
         [Test]
-        public async Task Handle_ValidRequest_ReturnsSuccessResult()
+        public async Task T_01_handle_valid_request_returns_success_result()
         {
             // Arrange
             var requestDto = new LoginRequestDto
@@ -80,7 +80,7 @@ namespace IdentityServivce.UnitTest.Auth.Login
         }
 
         [Test]
-        public async Task Handle_UserNotFound_ReturnsErrorResult()
+        public async Task T_02_handle_user_not_found_returns_error_result()
         {
             // Arrange
             var requestDto = new LoginRequestDto
