@@ -1,8 +1,12 @@
 using Base.Domain.Entities.Identity;
+using Base.Infrastructure;
 using IdentityService.Api.Application.Features.Auths.Commands.Login;
+using IdentityService.Api.Application.Features.Auths.Rules;
 using IdentityService.Api.Application.Models.Login;
 using IdentityService.Api.Application.Services.Abstracts.Identity;
+using IdentityService.Api.Application.Services.Identity;
 using IdentityService.Api.Domain.Jwt;
+using IdentityService.Api.Infrastructure.Repositories;
 using Moq;
 using Services.Core.Results;
 
@@ -12,15 +16,24 @@ namespace IdentityServivce.UnitTest.Auth.Login
     public class LoginCommandTests
     {
         private LoginCommand.LoginCommandHandler _loginCommandHandler;
+        private Mock<AuthBusinessRules> _mockAuthBusinessRules;
         private Mock<IIdentityService> _mockIdentityService;
-        private Mock<IAuthService> _mockAuthService;
+        private Mock<AuthManager> _mockAuthService;
+        private UserOperationClaimRepository _userOperationClaimRepository;
+        private Mock<ITokenHelper> _mockTokenHelper;
+        private RefreshTokenRepository _refreshTokenRepository;
+        private ApplicationDbContext _context;
 
         [SetUp]
         public void Setup()
         {
+            _context = ApplicationDbContextFactory.CreateDbContext();
             _mockIdentityService = new Mock<IIdentityService>();
-            _mockAuthService = new Mock<IAuthService>();
-
+            _mockAuthBusinessRules = new Mock<AuthBusinessRules>(_mockIdentityService.Object);
+            _userOperationClaimRepository = new UserOperationClaimRepository(_context);
+            _mockTokenHelper = new Mock<ITokenHelper>();
+            _refreshTokenRepository = new RefreshTokenRepository(_context);
+            _mockAuthService = new Mock<AuthManager>(_userOperationClaimRepository, _mockTokenHelper.Object, _refreshTokenRepository);
             _loginCommandHandler = new LoginCommand.LoginCommandHandler(_mockIdentityService.Object, _mockAuthService.Object);
         }
 
@@ -39,7 +52,12 @@ namespace IdentityServivce.UnitTest.Auth.Login
                 LoginRequestDto = requestDto,
             };
 
-            var userDataResult = new SuccessDataResult<User>(new User());
+            var user = new User()
+            {
+                Email = requestDto.Email,
+            };
+
+            var userDataResult = new SuccessDataResult<User>(user);
 
             _mockIdentityService.Setup(s => s.GetUserAsync(requestDto.Email)).ReturnsAsync(userDataResult);
 

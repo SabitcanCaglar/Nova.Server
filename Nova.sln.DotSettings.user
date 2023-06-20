@@ -1,53 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=88416f31_002Da369_002D4935_002D9e6e_002D36530a21eea7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Handle_ValidRequest_ReturnsRegisteredDto" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::5DA6B30C-EDAB-47EE-8F9B-8AC8093856D4::net7.0::IdentityService.UnitTest.Auth.Register.RegisterCommandTests.Handle_ValidRequest_ReturnsRegisteredDto&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e834bba5_002Ddb2f_002D471b_002Da4e8_002D5bd91f20de60/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;tests&amp;gt;\&amp;lt;Services&amp;gt;\&amp;lt;Identity&amp;gt;\&amp;lt;IdentityServivce.UnitTest&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/workstation_1_2/RiderProjects/Nova.Server/tests/IdentityServivce.UnitTest" Presentation="&amp;lt;tests&amp;gt;\&amp;lt;Services&amp;gt;\&amp;lt;Identity&amp;gt;\&amp;lt;IdentityServivce.UnitTest&amp;gt;" /&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=998444a9_002D7d60_002D4442_002D9f25_002D97eb7422967d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Handle_ValidRequest_ReturnsRegisteredDto #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::5DA6B30C-EDAB-47EE-8F9B-8AC8093856D4::net7.0::IdentityService.UnitTest.Auth.Register.RegisterCommandTests.Handle_ValidRequest_ReturnsRegisteredDto&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9b9907cc_002D69e9_002D4e60_002Da782_002D9854c9a8c3c4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Handle_ValidRequest_ReturnsRegisteredDto #23" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::5DA6B30C-EDAB-47EE-8F9B-8AC8093856D4::net7.0::IdentityServivce.UnitTest.Auth.Register.RegisterCommandTests.Handle_ValidRequest_ReturnsRegisteredDto&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b22fc3ba_002Dd6ed_002D4ed5_002D8d02_002Df059d73d40ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Handle_ValidRequest_ReturnsRegisteredDto #30" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::5DA6B30C-EDAB-47EE-8F9B-8AC8093856D4::net7.0::IdentityService.UnitTest.Auth.Register.RegisterCommandTests.Handle_ValidRequest_ReturnsRegisteredDto&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bf41f554_002D00ef_002D4bca_002D9522_002D54069c47c8cd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Handle_ValidRequest_ReturnsRegisteredDto #14" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::5DA6B30C-EDAB-47EE-8F9B-8AC8093856D4::net7.0::IdentityServivce.UnitTest.Auth.Register.RegisterCommandTests.Handle_ValidRequest_ReturnsRegisteredDto&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	
-	
-	
-	
-	
-	</wpf:ResourceDictionary>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f1fd2618_002D7eff_002D41a9_002D9bc3_002D81db370e2f09/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;tests&amp;gt;\&amp;lt;Services&amp;gt;\&amp;lt;Identity&amp;gt;\&amp;lt;IdentityServivce.UnitTest&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/workstation_1_2/RiderProjects/Nova.Server/tests/IdentityServivce.UnitTest" Presentation="&amp;lt;tests&amp;gt;\&amp;lt;Services&amp;gt;\&amp;lt;Identity&amp;gt;\&amp;lt;IdentityServivce.UnitTest&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

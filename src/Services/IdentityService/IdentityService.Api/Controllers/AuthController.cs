@@ -34,9 +34,13 @@ namespace IdentityService.Api.Controllers
                 RegisterRequestDto = registerRequestDto,
             };
 
-            RegisteredDto result = await Mediator.Send(registerCommand);
-            SetRefreshTokenToCookie(result.RefreshToken);
-            return Created("",result.AccessToken);
+            var result = await Mediator.Send(registerCommand);
+
+            if (!result.Success) return BadRequest(result);
+
+            SetRefreshTokenToCookie(result.Data.RefreshToken);
+            return Created("",result.Data.AccessToken);
+
         }
 
         private void SetRefreshTokenToCookie(RefreshToken refreshToken)
