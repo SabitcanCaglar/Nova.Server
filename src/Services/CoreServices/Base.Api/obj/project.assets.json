@@ -75,6 +75,19 @@
           }
         }
       },
+      "Consul/1.6.10.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Consul.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {}
+        }
+      },
       "Duende.IdentityServer/6.0.4": {
         "type": "package",
         "dependencies": {
@@ -2215,6 +2228,19 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Consul/1.6.10.9": {
+      "sha512": "c4y+f7ACAeluSSUxC5TsWjgqMnTQeWGTS92JZfEZk10FK/yi/ANp7QfUIWP7sla1QaijnVDQy9p1t2iv6zLyYA==",
+      "type": "package",
+      "path": "consul/1.6.10.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "consul.1.6.10.9.nupkg.sha512",
+        "consul.nuspec",
+        "lib/net461/Consul.dll",
+        "lib/netstandard2.0/Consul.dll"
       ]
     },
     "Duende.IdentityServer/6.0.4": {
@@ -6468,6 +6494,7 @@
     "net7.0": [
       "Base.Application >= 1.0.0",
       "Base.Infrastructure >= 1.0.0",
+      "Consul >= 1.6.10.9",
       "FluentValidation >= 11.5.2",
       "FluentValidation.AspNetCore >= 11.3.0",
       "Microsoft.AspNetCore.ApiAuthorization.IdentityServer >= 7.0.5",
@@ -6533,6 +6560,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Consul": {
+            "target": "Package",
+            "version": "[1.6.10.9, )"
+          },
           "FluentValidation": {
             "target": "Package",
             "version": "[11.5.2, )"

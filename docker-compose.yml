@@ -1,15 +1,13 @@
 ﻿version: '3.9'
 
 services:
-# First step docker pull mcr.microsoft.com/mssql-tools
   mysql:
     container_name: c_mysql
     image: mysql:8.0
     ports:
       - 3307:3306
     expose:
-          # Opens port 3307 on the container
-          - '3307'  
+      - '3307'  
     environment:
       MYSQL_DATABASE: nova_server_main
       MYSQL_ROOT_PASSWORD: Sbtcan9406**
@@ -17,14 +15,23 @@ services:
       - mysql:/var/lib/mysql
       
   rabbitmq:
-      container_name: c_rabbitmq
-      image: rabbitmq:3-management
-      ports:
-        - 5672:5672
-        - 15672:15672
-      volumes:
-        - rabbitmq:/var/lib/rabbitmq    
+    container_name: c_rabbitmq
+    image: rabbitmq:3-management
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - rabbitmq:/var/lib/rabbitmq
+
+  consul:
+    container_name: c_consul
+    image: consul:latest
+    ports:
+      - 8500:8500
+    volumes:
+      - consul:/consul/data
 
 volumes:
   mysql:
   rabbitmq:
+  consul:

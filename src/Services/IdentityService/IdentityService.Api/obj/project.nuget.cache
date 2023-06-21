@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tP6TBtTnux50IMmR7lE4IY1V1gVptboibOG+J16TXLWti41UxCt3RErJIXBPwGLwnD9AcKjAEeuDUcKq8vAkWw==",
+  "dgSpecHash": "xpkt6aO3NQMfIAzP8fwQrAigndOEIsZ0iHeL3RrOTze+mzr/jABCXPksBFNhShAXwGts97CKxxzYN/Zrw1ldMg==",
   "success": true,
   "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/IdentityService/IdentityService.Api/IdentityService.Api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/workstation_1_2/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/consul/1.6.10.9/consul.1.6.10.9.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/duende.identityserver/6.0.4/duende.identityserver.6.0.4.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/duende.identityserver.aspnetidentity/6.0.4/duende.identityserver.aspnetidentity.6.0.4.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/duende.identityserver.entityframework/6.0.4/duende.identityserver.entityframework.6.0.4.nupkg.sha512",

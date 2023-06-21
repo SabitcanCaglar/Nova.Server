@@ -125,3 +125,4 @@
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Api/obj/Debug/net7.0/Base.Api.pdb
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Api/obj/Debug/net7.0/Base.Api.genruntimeconfig.cache
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Api/obj/Debug/net7.0/ref/Base.Api.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Api/bin/Debug/net7.0/Consul.dll

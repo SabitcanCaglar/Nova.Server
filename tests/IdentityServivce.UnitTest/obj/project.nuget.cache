@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pfwvyoPPRwT3BMJU11EbgyvGvGQR9D/vELneMWoRTpr+m/+Vb2mEbMGMVNyfswrEp87t/1eeoRBY+tI5DG2kSQ==",
+  "dgSpecHash": "ozfRj2cEKu+QFF0sIEeRHrwouC2kUUZlhezfkGQn9GgeWkEs1Ui8y5e08Go3PueYZKHhOl9WRudvuyiLwc8tVA==",
   "success": true,
   "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/tests/IdentityServivce.UnitTest/IdentityServivce.UnitTest.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "/Users/workstation_1_2/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/workstation_1_2/.nuget/packages/consul/1.6.10.9/consul.1.6.10.9.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/duende.identityserver/6.0.4/duende.identityserver.6.0.4.nupkg.sha512",
     "/Users/workstation_1_2/.nuget/packages/duende.identityserver.aspnetidentity/6.0.4/duende.identityserver.aspnetidentity.6.0.4.nupkg.sha512",

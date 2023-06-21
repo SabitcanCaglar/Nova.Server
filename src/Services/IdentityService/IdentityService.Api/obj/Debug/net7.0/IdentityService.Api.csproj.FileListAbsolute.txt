@@ -128,3 +128,4 @@
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/IdentityService/IdentityService.Api/obj/Debug/net7.0/IdentityService.Api.pdb
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/IdentityService/IdentityService.Api/obj/Debug/net7.0/IdentityService.Api.genruntimeconfig.cache
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/IdentityService/IdentityService.Api/obj/Debug/net7.0/ref/IdentityService.Api.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/IdentityService/IdentityService.Api/bin/Debug/net7.0/Consul.dll

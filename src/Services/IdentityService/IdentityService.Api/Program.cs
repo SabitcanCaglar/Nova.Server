@@ -5,6 +5,7 @@ using Base.Infrastructure;
 using FluentValidation;
 using IdentityService.Api;
 using IdentityService.Api.Domain.Jwt;
+using IdentityService.Api.Extensions;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -23,7 +24,7 @@ builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
 builder.Services.AddProblemDetails();
 builder.Services.AddBaseInfrastructureServices(builder.Configuration);
 builder.Services.AddBaseApiServices(builder.Configuration);
-
+builder.Services.ConfigureConsul(builder.Configuration);
 
 
 builder.Services.AddControllers();
@@ -72,6 +73,8 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
+app.RegisterWithConsul(app.Lifetime);
 
 app.UseHttpsRedirection();
 

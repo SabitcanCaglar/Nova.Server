@@ -75,6 +75,19 @@
           }
         }
       },
+      "Consul/1.6.10.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Consul.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {}
+        }
+      },
       "Duende.IdentityServer/6.0.4": {
         "type": "package",
         "dependencies": {
@@ -2053,6 +2066,7 @@
         "dependencies": {
           "Base.Application": "1.0.0",
           "Base.Infrastructure": "1.0.0",
+          "Consul": "1.6.10.9",
           "FluentValidation": "11.5.2",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": "7.0.5",
@@ -2140,6 +2154,16 @@
           "bin/placeholder/Base.Infrastructure.dll": {}
         }
       },
+      "Nova.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Nova.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nova.Core.dll": {}
+        }
+      },
       "Services.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2222,6 +2246,19 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Consul/1.6.10.9": {
+      "sha512": "c4y+f7ACAeluSSUxC5TsWjgqMnTQeWGTS92JZfEZk10FK/yi/ANp7QfUIWP7sla1QaijnVDQy9p1t2iv6zLyYA==",
+      "type": "package",
+      "path": "consul/1.6.10.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "consul.1.6.10.9.nupkg.sha512",
+        "consul.nuspec",
+        "lib/net461/Consul.dll",
+        "lib/netstandard2.0/Consul.dll"
       ]
     },
     "Duende.IdentityServer/6.0.4": {
@@ -5961,6 +5998,11 @@
       "path": "../../CoreServices/Base.Infrastructure/Base.Infrastructure.csproj",
       "msbuildProject": "../../CoreServices/Base.Infrastructure/Base.Infrastructure.csproj"
     },
+    "Nova.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../../core/Nova.Core/Nova.Core.csproj",
+      "msbuildProject": "../../../../core/Nova.Core/Nova.Core.csproj"
+    },
     "Services.Core/1.0.0": {
       "type": "project",
       "path": "../../CoreServices/Services.Core/Services.Core.csproj",
@@ -5970,10 +6012,12 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Base.Api >= 1.0.0",
+      "Consul >= 1.6.10.9",
       "Duende.IdentityServer.Storage >= 6.0.4",
       "MediatR >= 11.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.1",
+      "Nova.Core >= 1.0.0",
       "Services.Core >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "System.Security.Claims >= 4.3.0"
@@ -6004,6 +6048,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "/Users/workstation_1_2/RiderProjects/Nova.Server/core/Nova.Core/Nova.Core.csproj": {
+              "projectPath": "/Users/workstation_1_2/RiderProjects/Nova.Server/core/Nova.Core/Nova.Core.csproj"
+            },
             "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Api/Base.Api.csproj": {
               "projectPath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Api/Base.Api.csproj"
             },
@@ -6023,6 +6070,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Consul": {
+            "target": "Package",
+            "version": "[1.6.10.9, )"
+          },
           "Duende.IdentityServer.Storage": {
             "target": "Package",
             "version": "[6.0.4, )"

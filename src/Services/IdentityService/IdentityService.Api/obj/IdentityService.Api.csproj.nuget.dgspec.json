@@ -4,6 +4,59 @@
     "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/IdentityService/IdentityService.Api/IdentityService.Api.csproj": {}
   },
   "projects": {
+    "/Users/workstation_1_2/RiderProjects/Nova.Server/core/Nova.Core/Nova.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/workstation_1_2/RiderProjects/Nova.Server/core/Nova.Core/Nova.Core.csproj",
+        "projectName": "Nova.Core",
+        "projectPath": "/Users/workstation_1_2/RiderProjects/Nova.Server/core/Nova.Core/Nova.Core.csproj",
+        "packagesPath": "/Users/workstation_1_2/.nuget/packages/",
+        "outputPath": "/Users/workstation_1_2/RiderProjects/Nova.Server/core/Nova.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/workstation_1_2/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/workstation_1_2/.dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Api/Base.Api.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -45,6 +98,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.10.9, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.5.2, )"
@@ -496,6 +553,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "/Users/workstation_1_2/RiderProjects/Nova.Server/core/Nova.Core/Nova.Core.csproj": {
+                "projectPath": "/Users/workstation_1_2/RiderProjects/Nova.Server/core/Nova.Core/Nova.Core.csproj"
+              },
               "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Api/Base.Api.csproj": {
                 "projectPath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/Services/CoreServices/Base.Api/Base.Api.csproj"
               },
@@ -515,6 +575,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.10.9, )"
+            },
             "Duende.IdentityServer.Storage": {
               "target": "Package",
               "version": "[6.0.4, )"
