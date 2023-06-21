@@ -164,3 +164,12 @@
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/obj/Debug/net7.0/Web.ApiGateway.pdb
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/obj/Debug/net7.0/Web.ApiGateway.genruntimeconfig.cache
 /Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/obj/Debug/net7.0/ref/Web.ApiGateway.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Configurations/ocelot.json
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Consul.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.AspNetCore.MiddlewareAnalysis.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Microsoft.Extensions.DiagnosticAdapter.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Ocelot.dll
+/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/bin/Debug/net7.0/Ocelot.Provider.Consul.dll

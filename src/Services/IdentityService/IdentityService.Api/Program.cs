@@ -10,6 +10,9 @@ using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
+using Ocelot.Provider.Consul;
 using Services.Core.Security.Encyption;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,7 +28,7 @@ builder.Services.AddProblemDetails();
 builder.Services.AddBaseInfrastructureServices(builder.Configuration);
 builder.Services.AddBaseApiServices(builder.Configuration);
 builder.Services.ConfigureConsul(builder.Configuration);
-
+builder.Services.AddOcelot().AddConsul();
 
 builder.Services.AddControllers();
 
@@ -76,6 +79,7 @@ var app = builder.Build();
 
 app.RegisterWithConsul(app.Lifetime);
 
+await app.UseOcelot();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
