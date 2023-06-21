@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ugJfygkHZg93YdkACbpNBmrlImJHnAgJ0ZRQiHSl78XwRQM3001CTFPWHZjqPzuHXUS3AXwcz/Gz57KzCWcxtQ==",
+  "dgSpecHash": "twvAftbq/ylCBH5SvfrJOc5nkKYlWO2zr5UgX1gRarUbtx/vZHgtGRlXd5w/Rp0vcB/N/B53Evnar4f6XlkP8g==",
   "success": true,
   "projectFilePath": "/Users/workstation_1_2/RiderProjects/Nova.Server/src/ApiGateways/Web.ApiGateway/Web.ApiGateway.csproj",
   "expectedPackageFiles": [

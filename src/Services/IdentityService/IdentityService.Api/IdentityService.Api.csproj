@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Consul" Version="1.6.10.9" />
         <PackageReference Include="Duende.IdentityServer.Storage" Version="6.0.4" />
         <PackageReference Include="MediatR" Version="11.0.0" />
         <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
@@ -16,6 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\..\..\core\Nova.Core\Nova.Core.csproj" />
       <ProjectReference Include="..\..\CoreServices\Base.Api\Base.Api.csproj" />
       <ProjectReference Include="..\..\CoreServices\Services.Core\Services.Core.csproj" />
     </ItemGroup>

@@ -9,6 +9,7 @@
       "IdentityService.Api/1.0.0": {
         "dependencies": {
           "Base.Api": "1.0.0",
+          "Consul": "1.6.10.9",
           "Duende.IdentityServer.Storage": "6.0.4",
           "MediatR": "11.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
@@ -75,6 +76,18 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.6.0.0",
             "fileVersion": "1.600.22.20503"
+          }
+        }
+      },
+      "Consul/1.6.10.9": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {
+            "assemblyVersion": "1.6.10.9",
+            "fileVersion": "1.6.10.9"
           }
         }
       },
@@ -1181,6 +1194,7 @@
         "dependencies": {
           "Base.Application": "1.0.0",
           "Base.Infrastructure": "1.0.0",
+          "Consul": "1.6.10.9",
           "FluentValidation": "11.5.2",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": "7.0.5",
@@ -1291,6 +1305,13 @@
       "sha512": "sha512-EycyMsb6rD2PK9P0SyibFfEhvWWttdrYhyPF4f41uzdB/44yQlV+2Wehxyg489Rj6gbPvSPgbKq0xsHJBhipZA==",
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
+    },
+    "Consul/1.6.10.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c4y+f7ACAeluSSUxC5TsWjgqMnTQeWGTS92JZfEZk10FK/yi/ANp7QfUIWP7sla1QaijnVDQy9p1t2iv6zLyYA==",
+      "path": "consul/1.6.10.9",
+      "hashPath": "consul.1.6.10.9.nupkg.sha512"
     },
     "Duende.IdentityServer/6.0.4": {
       "type": "package",

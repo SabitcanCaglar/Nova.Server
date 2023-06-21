@@ -91,6 +91,19 @@
           }
         }
       },
+      "Consul/1.6.10.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Consul.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {}
+        }
+      },
       "coverlet.collector/3.1.2": {
         "type": "package",
         "build": {
@@ -2454,6 +2467,7 @@
         "dependencies": {
           "Base.Application": "1.0.0",
           "Base.Infrastructure": "1.0.0",
+          "Consul": "1.6.10.9",
           "FluentValidation": "11.5.2",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": "7.0.5",
@@ -2560,10 +2574,12 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Base.Api": "1.0.0",
+          "Consul": "1.6.10.9",
           "Duende.IdentityServer.Storage": "6.0.4",
           "MediatR": "11.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.1",
+          "Nova.Core": "1.0.0",
           "Services.Core": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0",
           "System.Security.Claims": "4.3.0"
@@ -2577,6 +2593,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Nova.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Nova.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nova.Core.dll": {}
+        }
       },
       "Services.Core/1.0.0": {
         "type": "project",
@@ -2684,6 +2710,19 @@
         "lib/netstandard2.1/Castle.Core.dll",
         "lib/netstandard2.1/Castle.Core.xml",
         "readme.txt"
+      ]
+    },
+    "Consul/1.6.10.9": {
+      "sha512": "c4y+f7ACAeluSSUxC5TsWjgqMnTQeWGTS92JZfEZk10FK/yi/ANp7QfUIWP7sla1QaijnVDQy9p1t2iv6zLyYA==",
+      "type": "package",
+      "path": "consul/1.6.10.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "consul.1.6.10.9.nupkg.sha512",
+        "consul.nuspec",
+        "lib/net461/Consul.dll",
+        "lib/netstandard2.0/Consul.dll"
       ]
     },
     "coverlet.collector/3.1.2": {
@@ -7306,6 +7345,11 @@
       "type": "project",
       "path": "../../src/Services/IdentityService/IdentityService.Api/IdentityService.Api.csproj",
       "msbuildProject": "../../src/Services/IdentityService/IdentityService.Api/IdentityService.Api.csproj"
+    },
+    "Nova.Core/1.0.0": {
+      "type": "project",
+      "path": "../../core/Nova.Core/Nova.Core.csproj",
+      "msbuildProject": "../../core/Nova.Core/Nova.Core.csproj"
     },
     "Services.Core/1.0.0": {
       "type": "project",

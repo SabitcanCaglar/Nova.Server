@@ -2228,6 +2228,7 @@
         "dependencies": {
           "Base.Application": "1.0.0",
           "Base.Infrastructure": "1.0.0",
+          "Consul": "1.6.10.9",
           "FluentValidation": "11.5.2",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": "7.0.5",

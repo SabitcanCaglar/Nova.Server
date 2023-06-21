@@ -139,6 +139,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.10.9, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.5.2, )"

@@ -1,5 +1,17 @@
 {
-  "Routes": [],
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "IdentityService",
+      
+      "DownstreamPathTemplate": "/api/auth/login",
+      "DownstreamScheme": "http",
+     
+      "UpstreamPathTemplate": "/login",
+      "UpstreamHttpMethod": ["Post"],
+      "UpstreamScheme": "http"
+    }
+  ],
   "GlobalConfiguration": {
     "BaseUrl": "http://localhost:5000",
     "ServiceDiscoveryProvider": {
