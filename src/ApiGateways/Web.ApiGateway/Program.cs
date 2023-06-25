@@ -2,6 +2,8 @@ using Base.Api;
 using Base.Application;
 using Base.Infrastructure;
 using Base.Infrastructure.Persistence;
+using Ocelot.DependencyInjection;
+using Ocelot.Provider.Consul;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddBaseApplicationServices();
 builder.Services.AddBaseInfrastructureServices(builder.Configuration);
 builder.Services.AddBaseApiServices(builder.Configuration);
+
+builder.Configuration.AddJsonFile("Configurations/ocelot.json",optional:false,reloadOnChange:true);
+builder.Services.AddOcelot().AddConsul();
 
 
 builder.Services.AddControllers();
