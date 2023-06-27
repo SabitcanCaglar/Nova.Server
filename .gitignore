@@ -1,0 +1,8 @@
+/Nova.sln
+# Rider debug files
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+out/
