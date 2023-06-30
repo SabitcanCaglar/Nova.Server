@@ -59,7 +59,7 @@ namespace IdentityServivce.UnitTest.Auth.Login
 
             var userDataResult = new SuccessDataResult<User>(user);
 
-            _mockIdentityService.Setup(s => s.GetUserAsync(requestDto.Email)).ReturnsAsync(userDataResult);
+            _mockIdentityService.Setup(s => s.GetUserWithEmailAsync(requestDto.Email)).ReturnsAsync(userDataResult);
 
             var accessToken = new AccessToken();
             _mockAuthService.Setup(s => s.CreateAccessToken(userDataResult.Data)).ReturnsAsync(accessToken);
@@ -75,7 +75,7 @@ namespace IdentityServivce.UnitTest.Auth.Login
             Assert.AreEqual(requestDto.Email, successResult.Data.Email);
             Assert.AreEqual(accessToken, successResult.Data.Token);
 
-            _mockIdentityService.Verify(s => s.GetUserAsync(requestDto.Email), Times.Once);
+            _mockIdentityService.Verify(s => s.GetUserWithEmailAsync(requestDto.Email), Times.Once);
             _mockAuthService.Verify(s => s.CreateAccessToken(userDataResult.Data), Times.Once);
         }
 
@@ -96,7 +96,7 @@ namespace IdentityServivce.UnitTest.Auth.Login
 
             var userDataResult = new ErrorDataResult<User>("User not found!");
 
-            _mockIdentityService.Setup(s => s.GetUserAsync(requestDto.Email)).ReturnsAsync(userDataResult);
+            _mockIdentityService.Setup(s => s.GetUserWithEmailAsync(requestDto.Email)).ReturnsAsync(userDataResult);
 
             // Act
             var result = await _loginCommandHandler.Handle(loginCommand, CancellationToken.None);
@@ -108,7 +108,7 @@ namespace IdentityServivce.UnitTest.Auth.Login
             var errorResult = (ErrorDataResult<LoginResponseDto>)result;
             Assert.AreEqual("User not found!", errorResult.Message);
 
-            _mockIdentityService.Verify(s => s.GetUserAsync(requestDto.Email), Times.Once);
+            _mockIdentityService.Verify(s => s.GetUserWithEmailAsync(requestDto.Email), Times.Once);
             _mockAuthService.Verify(s => s.CreateAccessToken(It.IsAny<User>()), Times.Never);
         }
     }
