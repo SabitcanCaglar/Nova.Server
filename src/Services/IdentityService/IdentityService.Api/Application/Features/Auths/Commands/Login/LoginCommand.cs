@@ -27,7 +27,7 @@ namespace IdentityService.Api.Application.Features.Auths.Commands.Login
             public async Task<DataResult<LoginResponseDto>> Handle(LoginCommand request, CancellationToken cancellationToken)
             {
 
-                var userDataResult =await _identityService.GetUserAsync(request.LoginRequestDto.Email);
+                var userDataResult =await _identityService.GetUserWithEmailAsync(request.LoginRequestDto.Email);
                 
                 if (!userDataResult.Success)
                 {
