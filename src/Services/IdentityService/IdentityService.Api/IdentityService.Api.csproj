@@ -35,20 +35,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Include="obj\Debug\net7.0\IdentityService.Api.MvcApplicationPartsAssemblyInfo.cs" />
       <Compile Remove="Abstract\IAuthService.cs" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Content Include="obj\Debug\net7.0\apphost" />
-      <Content Include="obj\Debug\net7.0\IdentityService.Api.csproj.CopyComplete" />
-      <Content Include="obj\Debug\net7.0\IdentityService.Api.csproj.CoreCompileInputs.cache" />
-      <Content Include="obj\Debug\net7.0\IdentityService.Api.csproj.FileListAbsolute.txt" />
-      <Content Include="obj\Debug\net7.0\IdentityService.Api.dll" />
-      <Content Include="obj\Debug\net7.0\IdentityService.Api.genruntimeconfig.cache" />
-      <Content Include="obj\Debug\net7.0\IdentityService.Api.MvcApplicationPartsAssemblyInfo.cache" />
-      <Content Include="obj\Debug\net7.0\IdentityService.Api.pdb" />
-      <Content Include="obj\Debug\net7.0\staticwebassets.build.json" />
     </ItemGroup>
 
 </Project>
